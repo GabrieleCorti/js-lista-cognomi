@@ -16,19 +16,11 @@ for (var i = 0; i < nomi.length; i++) {
 
 }
 
-var j = 1;
-if ( userNome == nomi[0] ) {
+var j = -1;
+do {
 
-  console.log(1);
+  ++j;
 
-} else {
+} while ( userNome != nomi[j] );
 
-  do {
-
-    ++j;
-
-  } while ( userNome != nomi[j] );
-
-  console.log(j + 1);
-
-}
+console.log(j + 1);
