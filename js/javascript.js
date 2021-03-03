@@ -16,11 +16,28 @@ for (var i = 0; i < nomi.length; i++) {
 
 }
 
-var j = -1;
-do {
+//var j = -1;
+// do {
+//
+//   ++j;
+//
+// } while ( userNome != nomi[j] );
+// var founded = false;
+// var j = 0;
+// while (!founded) {
+//   if (nomi[j] == userNome){
+//
+//     founded = true;
+//     console.log(j + 1);
+//
+//   } else if (j = nomi.length - 1) {
+//
+//     founded = true;
+//
+//   }
+//
+//   j++;
+//
+// }
 
-  ++j;
-
-} while ( userNome != nomi[j] );
-
-console.log(j + 1);
+console.log( nomi.indexOf(userNome) + 1);
